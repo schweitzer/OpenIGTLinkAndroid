@@ -10,8 +10,6 @@ find_library(OpenIGTLink_LIBRARY NAMES ${OpenIGTLink_LIBRARIES} PATHS ${OpenIGTL
 
 set(OpenIGTLink_INCLUDES "${OpenIGTLink_DIR}/../../include/igtl")
 
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/libs/${ANDROID_NDK_ABI_NAME})
-
 include_directories(
   "${OpenIGTLink_INCLUDES}"
 )
